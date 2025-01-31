@@ -10,6 +10,6 @@ todays weather with a weather icon and temp
 
 3 day view with weather icons and temp
 
-![alt text][def]
+picture is done with figma to give a rough idea of what id like the site to look like
 
-[def]: vscode-local:/c%3A/Users/jaket/OneDrive/Pictures/weather%20app.jpg
+![weather app](https://github.com/user-attachments/assets/6093e526-ff89-44e9-8351-55626ade90c5)
