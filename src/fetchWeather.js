@@ -3,7 +3,7 @@ export async function fetchWeather(city, apiKey) {
 
   const response = await fetch(endpoint);
   if (!response.ok) {
-    throw new Error('Failed to fetch weather data');
+    throw new Error("Failed to fetch weather data");
   }
 
   return response.json();

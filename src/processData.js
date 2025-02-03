@@ -10,4 +10,3 @@ export function processWeatherData(rawData) {
 
   return { location, forecast };
 }
-  
