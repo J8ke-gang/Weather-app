@@ -13,7 +13,8 @@ A sleek, responsive weather application built with HTML, CSS, JavaScript, and We
 
 ## 🖼️ Preview
 
-![Weather App Screenshot](c:\Users\jaket\OneDrive\Pictures\Screenshots\Screenshot 2025-06-12 190843.png)
+![weather app preview](https://github.com/user-attachments/assets/c3506ceb-8485-4bc8-832b-27c526b5875c)
+
 
 ## 🛠️ Technologies Used
 
