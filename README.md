@@ -1,15 +1,26 @@
-# Weather-app
+# 🌤️ Weather App
 
-weather app with a search bar for what city you want to see weather
+A sleek, responsive weather application built with HTML, CSS, JavaScript, and Webpack. It allows users to search for any city and view a 3-day weather forecast using the WeatherAPI.com service.
 
-simple lay out
+## 🚀 Features
 
-3 day view with weather icons and temp
+- Search for any city worldwide
+- 3-day weather forecast
+- Responsive, glassmorphism UI
+- Real-time API data
+- Built with modern JavaScript
+- Webpack bundling and dev server
 
-picture is done with figma to give a rough idea of what id like the site to look like
+## 🖼️ Preview
 
-![weather app](https://github.com/user-attachments/assets/6093e526-ff89-44e9-8351-55626ade90c5)
+![Weather App Screenshot](c:\Users\jaket\OneDrive\Pictures\Screenshots\Screenshot 2025-06-12 190843.png)
 
-finsihed project bit different than my figma design
+## 🛠️ Technologies Used
 
-![Screenshot 2025-02-03 105505](https://github.com/user-attachments/assets/d5a3ce17-5efe-436f-b428-45755846165a)
+- HTML5 / CSS3
+- JavaScript (ES6 Modules)
+- [WeatherAPI.com](https://www.weatherapi.com/)
+- Webpack
+- Font Awesome
+
+

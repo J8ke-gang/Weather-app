@@ -1,5 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-
+/*!******************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/styles.css ***!
+  \******************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);
+/*!**********************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/styles.css (1) ***!
+  \**********************************************************************/
 body {
   font-family: "Roboto", sans-serif;
   display: flex;
@@ -98,28 +103,26 @@ h3 {
 /* Forecast Layout */
 .forecast-container {
   display: flex;
-  gap: 24px;
+  gap: 16px;
   margin-top: 12px;
   flex-wrap: wrap;
   justify-content: center;
 }
 
 .forecast-day {
-  background: rgba(255, 255, 255, 0.1);
+  background: #444;
   padding: 12px;
-  border-radius: 16px;
+  border-radius: 8px;
   text-align: center;
   width: 160px;
   color: #fff;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  backdrop-filter: blur(10px);
-  cursor: default;
 }
 
 .forecast-day:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.35);
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
 }
 
 .forecast-day * {
@@ -185,3 +188,4 @@ footer a:hover {
     padding: 10px;
   }
 }
+
