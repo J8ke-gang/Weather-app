@@ -12,8 +12,8 @@ body {
   background: linear-gradient(to right top, #2c3e50, #4ca1af);
 }
 
-/* Main Form Container */
-form {
+/* weather Form */
+#weather-form {
   width: 90%;
   max-width: 800px;
   min-height: 600px;
@@ -29,13 +29,9 @@ form {
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
 }
 
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  flex-wrap: wrap;
-  margin-top: 20px;
+#weather-display {
+  margin-top: 30px;
+  width: 100%;
 }
 
 /* City Input */
