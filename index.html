@@ -2,15 +2,23 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Weather App</title>
-  <script defer src="main.js"></script></head>
+  <link rel="icon" href="favicon.ico"><script defer src="bundle.js"></script><link href="main.css" rel="stylesheet"></head>
   <body>
-    <form>
-      <input type="text" id="city" placeholder="Enter city name" required />
-      <button id="get-weather-button" type="button">Get Weather</button>
+    <form id="weather-form">
+      <input
+        type="text"
+        id="city"
+        placeholder="Enter city name"
+        required
+        autocomplete="on"
+      />
+      <button id="get-weather-button" type="submit">Get Weather</button>
     </form>
+
     <div id="weather-display"></div>
+
     <footer>
       Powered by
       <a href="https://www.weatherapi.com/" title="Free Weather API"
@@ -18,6 +26,7 @@
       >
       Made by Thibault Web Dev
     </footer>
-    <script type="module" src="843283cacd3b527b729a.js"></script>
+
+    <script type="module" src="7c4500971dd3062a6c18.js"></script>
   </body>
 </html>
